@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "commander": "^2.8.1",
+    "findit": "^2.0.0",
     "q": "^1.4.1",
     "typescript-formatter": "^0.4.1"
   }

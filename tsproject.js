@@ -43,7 +43,7 @@ commander
 	} else if (command === 'outputs') {
 		var outDir = project.compilerOptions.outDir || '.';
 		var outFiles = project.files.map(function(file) {
-			return path.join(outDir, file.replace(/.ts$/, '.js'));
+			return path.join(outDir, file.replace(/.tsx?$/, '.js'));
 		});
 		console.log(outFiles.join(' '));
 	} else {
